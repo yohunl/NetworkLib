@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NetworkLib_Example', :exclusive => true do
+  pod "NetworkLib", :path => "../"
+end
+
+target 'NetworkLib_Tests', :exclusive => true do
+  pod "NetworkLib", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
