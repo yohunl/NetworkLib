@@ -1,23 +1,8 @@
-#
-# Be sure to run `pod lib lint NetworkLib.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "NetworkLib"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of NetworkLib."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.version          = "1.0.0"
+  s.summary          = "测试用的 NetworkLib."
+  s.description      = "这个是一个测试的工程,是用来试验cocopods建立库,然后添加到本地的spec中,方便其它同事使用"
 
   s.homepage         = "https://github.com/yohunl/NetworkLib"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
