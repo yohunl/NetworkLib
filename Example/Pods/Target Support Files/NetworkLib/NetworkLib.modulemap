@@ -1,0 +1,6 @@
+framework module NetworkLib {
+  umbrella header "NetworkLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

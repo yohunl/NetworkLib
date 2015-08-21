@@ -1,0 +1,6 @@
+framework module Pods_NetworkLib_Tests {
+  umbrella header "Pods-NetworkLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
