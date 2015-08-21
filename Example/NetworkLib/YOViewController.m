@@ -7,7 +7,8 @@
 //
 
 #import "YOViewController.h"
-
+//#import <NetworkLib/YONetworkLib.h>
+#import "YONetworkLib.h"
 @interface YOViewController ()
 
 @end
@@ -17,6 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    YONetworkLib * lib = [YONetworkLib new];
+    [lib getGithubReposForUser:@"yohunl" withSuccess:^(id responseObject) {
+        NSLog(@"response = %@",responseObject);
+    } failure:^(NSError *error) {
+        NSLog(@"error = %@",error);
+    }];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

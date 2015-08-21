@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3BA6F5FA626D54E19668701"
+               BlueprintIdentifier = "D5D6550C0E26E0092D03609B"
                BuildableName = "NetworkLib.framework"
                BlueprintName = "NetworkLib"
                ReferencedContainer = "container:Pods.xcodeproj">
